@@ -207,7 +207,7 @@ Services: MongoDB (27017), Backend (5000), Frontend (5173)
 - Status selector with visual pipeline
 - Activity timeline
 
-### ✅ Settings
+### Settings
 - Profile update
 - Password change with strength indicator
 - UI preferences (notifications, items per page, default view)
