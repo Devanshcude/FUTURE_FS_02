@@ -4,7 +4,7 @@ A production-grade Mini CRM application for managing client leads from website c
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - **Node.js** v18+
@@ -62,7 +62,7 @@ Open [http://localhost:5173](http://localhost:5173) and log in with `admin@crm.c
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 crm-app/
@@ -108,7 +108,7 @@ crm-app/
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |---|---|
@@ -125,7 +125,7 @@ crm-app/
 
 ---
 
-## 🔗 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Auth | Description |
 |---|---|---|---|
@@ -155,7 +155,7 @@ crm-app/
 
 ---
 
-## 🎨 Design System
+## Design System
 
 | Token | Value |
 |---|---|
@@ -168,7 +168,7 @@ crm-app/
 
 ---
 
-## 🐳 Docker
+## Docker
 
 ```bash
 docker-compose up -d
@@ -178,29 +178,29 @@ Services: MongoDB (27017), Backend (5000), Frontend (5173)
 
 ---
 
-## 📋 Features
+## Features
 
-### ✅ Authentication
+### Authentication
 - JWT-based login
 - Token persistence in localStorage
 - Protected routes
 - Auto-logout on token expiry
 
-### ✅ Dashboard
+### Dashboard
 - KPI cards with animated count-up
 - Monthly leads area chart
 - Status distribution pie chart
 - Lead source bar chart
 - Recent leads table
 
-### ✅ Lead Management
+### Lead Management
 - Paginated, sortable lead table
 - Advanced filters (search, status, source, priority, date range)
 - Inline status editing
 - Add / Edit / Delete leads via modals
 - CSV export
 
-### ✅ Lead Details
+### Lead Details
 - Full editable info panel
 - Notes CRUD (add, edit inline, delete)
 - Follow-up scheduling with reminder flags
